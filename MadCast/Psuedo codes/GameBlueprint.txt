@@ -1,0 +1,13 @@
+GameBlueprint
+
+Loading Screen
+
+Menu
+	
+	Start
+		
+	Options
+	Credits
+	Exit
+	
+End Screen

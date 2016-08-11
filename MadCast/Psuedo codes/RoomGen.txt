@@ -1,0 +1,19 @@
+RoomGen
+
+In: Enemy[] enemy; float[] enemySpawnInt; int roomNumber; int roomSize; // Map map properties //
+Out: bool win
+
+RoomGen ()
+{	
+		BaseGen(roomSize)
+	
+		Spawning(enemy, enemySpawnInt)
+}
+
+Enemy[] enemy: betölhető ellenfelek adott témának megfelelően feltöltve alapadatokkal
+float[] enemySpawnInt: előfordulási számuknak az intervalluma
+int roomNumber: trivi.
+int roomSize:trivi.
+
+BaseGen(): legenerálja a járható mezőket.
+Spawning(): létrehozza és lepakolja az ellenfeleket.

@@ -1,0 +1,23 @@
+GameController
+	
+CharacterSelect()
+
+do
+{
+	New map
+
+	i = 0
+	do
+	{
+	
+		RoomGen()
+		GamePlay()
+		
+	} i < roomNumber AND GamePlay() == true
+	
+} j < mapNumber AND GamePlay() == true
+
+GamePlay() == true
+	WIN
+else
+	LOSE

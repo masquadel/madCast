@@ -1,0 +1,22 @@
+Map // feltölti a pálya tulajdonságait
+
+members :
+const mapNumber
+roomNumber
+float[] enemySpawnInt
+Enemy[] enemy
+
+
+
+
+
+
+
+
+
+
+
+Enemy[] enemy: betölhető ellenfelek adott témának megfelelően feltöltve alapadatokkal
+
+
+
