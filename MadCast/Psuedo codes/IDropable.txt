@@ -1,6 +1,0 @@
-IDropable //interface
-objektek, amiket kidobhat magából a halott ellenfél és a player felveheti
-
-
-time					//ha Hp, eltűnik egy idő után
-TakeToDo()		//mi történjen, ha felveszik
