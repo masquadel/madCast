@@ -1,0 +1,10 @@
+Unit :Mob //
+
+members:
+IWeapon[] weapon 						// objekt amivel lehet sebezni és megvalósítja az IWeapon interfacét
+IDropable[] drops							//tömb,ami tárolja a halálakor eldobott itemeket(IDropable-t interfacét megvalósítja)
+
+
+Ai()  												//script
+
+Attack(){ weapon.Use()} 	// meghívja a nála lévő fegyver attack fügvényét

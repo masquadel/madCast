@@ -1,0 +1,8 @@
+IWeapon //interface    /// név kérdéses
+objektek, amikkel lehet sebezni és buffja,debuffja lehet a Specialeffektből
+
+member:
+dmg
+
+Use()
+Specaileffekt()

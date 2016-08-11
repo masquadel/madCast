@@ -1,0 +1,28 @@
+Room //
+
+members:
+roomSize
+Enemy[] enemy 
+float[] enemySpawnInt
+Enemy enemyStats 
+variable roomHolder[]
+Enemy[] spawned
+
+
+RoomGen()
+bool CleanRoom()
+RoomEnd()
+
+
+Enemy[] enemy: betölhető ellenfelek adott témának megfelelően feltöltve alapadatokkal
+float[] enemySpawnInt: előfordulási számuknak az intervalluma
+variable roomHolder[] : szoba helyeinek eltárolása
+Enemy[] spawned : a szobába spawnolt ellenfelek(ez viszont lista lesz)
+
+
+RoomGen() :legenerálja a járható mezőket, létrehozza és lepakolja az ellenfeleket.
+CleanRoom(): igazat ad vissza, ha nincs több szörny a szobában
+RoomEnd(): "irányító",megvizsgálj a játék állapotát és tovább dob amerre kell(NextRoom(),BossRoom(),MapDone(),PlayerOut())
+
+
+boss szoba kell külön osztályba leszármazotként? elég-e egy plusz metódus?
